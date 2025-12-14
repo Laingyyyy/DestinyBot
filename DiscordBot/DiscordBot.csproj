@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>a58dd123-ccb4-4f58-bb2e-36926bada7ab</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02562" />
+      <PackageReference Include="DSharpPlus.Commands" Version="5.0.0-nightly-02562" />
+      <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02562" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.0" />
+    </ItemGroup>
+
+</Project>
